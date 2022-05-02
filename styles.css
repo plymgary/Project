@@ -78,9 +78,17 @@ a { color: #e5e7eb; }
 
 .flex-images {
   display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  flex: auto;
 }
 
-.flex-images li {
+.flex-images p {
+text-align: center;
+
+}
+/*.flex-images li {
   background: *green;
   border: 1px solid brown;
   height: 100px;
