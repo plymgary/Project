@@ -7,7 +7,9 @@ h1 {
     font-size: 24px;
     color: #f9faf8;
     background-color: #1f2937;
+    text-align: left;
     margin: 0;
+   /*  padding-left: 40px; */
 }
 
 
@@ -78,6 +80,7 @@ a { color: #e5e7eb; }
   padding-bottom: 50px;
   padding-left: 70px;
   padding-right: 70px;
+  margin-bottom: 60px;
 }
 
 .para1 {
@@ -113,17 +116,99 @@ a { color: #e5e7eb; }
 } 
 
 .call-action {
-  height: auto;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
 
 
 .call-action-text {
   background-color: #3882f6;
+  height: 60px;
+  padding: 40px;
   }
 
 .call-action-button {
   background-color: #3882f6;
+  height: 60px;
+  padding: 40px;
+  justify-content: center;
 } 
+
+
+/*
+.top-section {
+  /*margin: 15px;
+  background-color: #1f2937;
+  justify-content: center;
+  padding: 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  *width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  /*flex-basis: 100%;
+  flex: 1;
+}
+
+.orange-column {
+  background-color: orange;
+  height: 100px;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 100px;
+}
+
+.green-column {
+  background-color: green;
+  height: 100px;
+}
+*/
+
+
+.top-section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin-top: 60px; don't delete*/
+  padding-top: 10px;
+  padding-bottom: 40px;
+  flex: auto;
+}
+
+.top-section div {
+  background: #1f2937; 
+}
+.top-section .image-top {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+.call-section div {
+  background-color: #1f2937;
+  height: 60px;
+  padding: 40px;
+  flex: 1;
+  }
+
+  .image-top {
+    background-color: #1f2937;
+    height: 60px;
+    flex: 1 1 0%;
+    } 
+
+  */
